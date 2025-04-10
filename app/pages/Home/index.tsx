@@ -7,7 +7,7 @@ export default function HomePage() {
 
       <section className="h-screen w-full flex items-center justify-center">
         <div className=" text-white uppercase ">
-          <h1 className="text-2xl font-bold  block">Olá!<br />
+          <h1 className="text-4xl font-bold block ">Olá!<br />
             <span className="text-7xl ">Me chame de <br />Tigger</span>
             <span className="text-2xl "><br />Seu desenvolvedor compentente.</span>
           </h1>

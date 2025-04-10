@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import avatar from '../../assets/avatar_dev.png'
+import avatar from '../../assets/avatar_dev_ms.png'
 
 export default function HomePage() {
   return (
@@ -12,7 +12,8 @@ export default function HomePage() {
             <span className="text-2xl "><br />Seu desenvolvedor compentente.</span>
           </h1>
         </div>
-          <Image src={avatar} alt="avatar Marcos Sales" className='w-lg scale-150'/>
+
+          <Image src={avatar} alt="avatar Marcos Sales" className='w-lg scale-150 pt-[74]'/>
       </section>
     </div>
   )

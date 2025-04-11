@@ -3,7 +3,7 @@ import avatar from '../../assets/avatar_dev_ms.png'
 
 export default function CardHome() {
   return (
-    <div className="h-screen w-full flex  bg-blue-500">
+    <div className="h-screen w-full flex animate-gradient bg-gradient-to-b from-blue-400 via-blue-600 to-blue-950 bg-[length:200%_200%]">
 
     <section className="h-screen w-full flex items-center justify-center">
       <div className=" text-white uppercase ">

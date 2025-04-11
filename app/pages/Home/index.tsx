@@ -8,10 +8,6 @@ export default function HomePage() {
     <div>
       <Header />
       <CardHome />
-      <CardHome />
-      <CardHome />
-      <CardHome />
-      <CardHome />
     </div>
   )
 }

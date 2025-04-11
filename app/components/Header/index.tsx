@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import icomM from '../../assets/icon_logo.svg'
-import NavMenu from '../Nav'
+import { AlternativeMenu } from '../Nav/AlternativeMenu'
+
 
 export default function Header() {
   return (
@@ -10,8 +11,7 @@ export default function Header() {
           <Image src={icomM} alt="Icone da Letra M" className='w-20' />
         </div>
       </div>
-
-      <NavMenu/>
+    <AlternativeMenu/>
     </header>
   )
 }

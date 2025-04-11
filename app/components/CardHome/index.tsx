@@ -13,7 +13,9 @@ export default function CardHome() {
         <span className="text-2xl font-normal normal-case leading-none"><br />Seu desenvolvedor compentente.</span>
       </div>
 
-      <Image src={avatar} alt="avatar Marcos Sales" className='w-lg scale-150 pt-[74]' />
+      <div className='mt-auto'>
+      <Image src={avatar} alt="avatar Marcos Sales" className='w-[800px] ' />
+      </div>
     </section>
   </div>
 

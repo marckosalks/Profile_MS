@@ -32,7 +32,7 @@ function MenubarTrigger({
   return (
     <MenubarPrimitive.Trigger
       className={cn(
-        "px-3 py-1 text-[1rem] focus:text-black font-medium rounded-md hover:bg-muted hover:text-black focus:outline-none focus:bg-muted text-white transition-colors",
+        "px-3 py-1 text-[1rem] whitespace-nowrap focus:text-black font-medium rounded-md hover:bg-muted hover:text-black focus:outline-none focus:bg-muted text-white transition-colors",
         className
       )}
       {...props}

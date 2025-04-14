@@ -1,4 +1,5 @@
 
+import AbouteMe from '@/app/components/AboutMe/AbouteMe'
 import CardHome from '@/app/components/CardHome'
 import Header from '@/app/components/Header'
 
@@ -8,7 +9,7 @@ export default function HomePage() {
     <div>
       <Header />
       <CardHome />
-      <CardHome />
+      <AbouteMe />
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import avatar from '../../assets/avatar_dev_ms.png'
+import avatar from '../../assets/avatar_say_hallo.gif'
 
 export default function CardHome() {
   return (

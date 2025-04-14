@@ -3,13 +3,12 @@ import avatar from '../../assets/avatar_dev_ms.png'
 
 export default function CardHome() {
   return (
-    <div className="h-screen w-full flex animate-gradient bg-gradient-to-b from-blue-400 via-blue-600 to-blue-950 bg-[length:200%_200%]">
-      <section className="h-screen w-full flex flex-col md:flex-row items-center justify-center px-4">
-        {/* Texto */}
-        <div className="text-white uppercase text-center md:text-left">
+    <div className="relative h-screen w-full animate-gradient bg-gradient-to-b from-blue-400 via-blue-600 to-blue-950 bg-[length:200%_200%]">
+      <section className="relative z-10 h-full w-full flex flex-col items-center justify-center px-4 text-white text-center md:text-left">
+        <div className="max-w-3xl">
           <h1 className="text-xl md:text-2xl font-bold">
             Olá!<br />
-            <span className="text-4xl md:text-6xl leading-none block">
+            <span className="uppercase text-4xl md:text-6xl leading-none block">
               Me chame de <br />Tigger
             </span>
           </h1>
@@ -17,17 +16,16 @@ export default function CardHome() {
             Seu desenvolvedor competente.
           </span>
         </div>
-
-        {/* Imagem */}
-        <div className="mb-8 md:mb-0 md:ml-8 flex justify-center">
-          <Image
-            src={avatar}
-            alt="avatar Marcos Sales"
-            className="w-52 sm:w-72 md:w-96 lg:w-[500px] h-auto"
-            priority
-          />
-        </div>
       </section>
+
+      <div className="mb-8 md:mb-0 md:ml-8 flex justify-center">
+        <Image
+          src={avatar}
+          alt="avatar Marcos Sales"
+          className="absolute bottom-0 right-auto sm:right-0 lg:right-10 w-[300px] sm:w-[400px] md:w-[390px] lg:w-[500px] xl:w-[600px] h-auto object-contain pointer-events-none z-0"
+          priority
+        />
+      </div>
     </div>
-  );
+  )
 }

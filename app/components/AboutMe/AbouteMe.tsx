@@ -9,7 +9,7 @@ export default function AbouteMe() {
         Eaque dolor illo corporis explicabo eligendi repudiandae
         ullam fuga voluptates quasi at error praesentium nemo provident
         dignissimos suscipit, facere atque quia quis.
-      </p>
+      </p> 
         <img src="" alt="" />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.

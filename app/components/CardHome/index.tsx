@@ -6,13 +6,13 @@ export default function CardHome() {
     <div className="relative h-screen w-full animate-gradient bg-gradient-to-b from-blue-400 via-blue-600 to-blue-950 bg-[length:200%_200%]">
       <section className="relative z-10 h-full w-full flex flex-col items-center justify-center px-4 text-white text-center md:text-left">
         <div className="max-w-3xl">
-          <h1 className="text-xl md:text-2xl xl:text-6xl xl:pl-28 font-bold uppercase">
+          <h1 className="text-xl md:text-2xl xl:text-5xl  font-bold uppercase">
             Olá!<br />
-            <span className="uppercase text-4xl md:text-8xl leading-none block">
+            <span className="uppercase text-4xl md:text-7xl leading-none block">
               Me chame de <br />Tigger
             </span>
           </h1>
-          <span className="text-lg md:text-2xl xl:pl-28 font-normal normal-case leading-none block mt-4">
+          <span className="text-lg md:text-2xl font-normal normal-case leading-none block mt-4">
             Seu desenvolvedor competente.
           </span>
         </div>

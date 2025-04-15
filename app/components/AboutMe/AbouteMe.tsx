@@ -33,7 +33,7 @@ export  function AboutMe() {
           href="https://github.com/marckosalks"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex justify-center align-middle gap-2 border border-blue-600 text-blue-600 px-6 py-2 rounded-md font-semibold hover:bg-blue-100 transition"
+          className="flex justify-center items-center gap-2 border border-blue-600 text-blue-600 px-6 py-2 rounded-md font-semibold hover:bg-blue-100 transition"
         >
           <Image src={Git} alt="icon git" className="w-5 h-5 "/>
           GitHub

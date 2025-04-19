@@ -102,7 +102,7 @@ export function AboutMe() {
                 alt={tech.alt}
                 width={48}
                 height={48}
-                className=" text-white"
+                className=" text-white animate-pulse hover:animate-none"
               />
             </Link>
           </div>

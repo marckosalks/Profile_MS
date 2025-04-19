@@ -1,9 +1,18 @@
-// src/components/AboutSection.jsx
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
 import Git from "../../assets/git.webp"
+import 'aos/dist/aos.css';
+
+import AOS from 'aos';
+
+import { useEffect } from 'react';
+
+
 
 export function AboutMe() {
+
 
   const technologies = [
     {
@@ -44,10 +53,19 @@ export function AboutMe() {
     }
   ]
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+    });
+  }, []);
+
   return (
     <section className="w-full px-4 py-10 flex flex-col items-center">
 
-      <div className="flex flex-col md:flex-row justify-center text-center md:text-left max-w-5xl w-full gap-4 md:gap-12">
+      <div data-aos="fade-up" 
+        className="flex flex-col md:flex-row justify-center text-center md:text-left max-w-5xl w-full gap-4 md:gap-12">
         <p className="md:w-1/2 border-r md:pr-6">
           Bem-vindo ao meu universo! Sou um desenvolvedor Full Stack especializado
           em criar soluções inovadoras e funcionais. Com a capacidade de trabalhar em equipe
@@ -61,7 +79,8 @@ export function AboutMe() {
         </p>
       </div>
 
-      <div className="flex gap-4 mt-6">
+      <div data-aos="fade-up" 
+        className="flex gap-4 mt-6">
         <Link
           href="https://www.linkedin.com/in/devmarcossales/"
           target="_blank"
@@ -94,6 +113,7 @@ export function AboutMe() {
       >
         {technologies.map((tech) => (
           <div
+            data-aos="fade-up"
             key={tech.src}
             className="flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 hover:scale-105 transition-transform duration-200"
           >

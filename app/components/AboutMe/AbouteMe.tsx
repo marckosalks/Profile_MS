@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Git from "../../assets/git.webp"
+
 export function AboutMe() {
 
   const technologies = [
@@ -102,11 +103,12 @@ export function AboutMe() {
                 alt={tech.alt}
                 width={48}
                 height={48}
-                className=" text-white animate-pulse hover:animate-none"
+                className=" text-white animate-caret-ping-1"
               />
             </Link>
           </div>
         ))}
+
     </div>
     </section >
   );

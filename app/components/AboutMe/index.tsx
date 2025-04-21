@@ -62,7 +62,7 @@ export function AboutMe() {
   }, []);
 
   return (
-    <section className="w-full px-4 py-10 flex flex-col items-center">
+    <section id="about" className="scroll-smooth w-full px-4 py-10 flex flex-col items-center">
 
       <div data-aos="fade-up" 
         className="flex flex-col md:flex-row justify-center text-center md:text-left max-w-5xl w-full gap-4 md:gap-12">

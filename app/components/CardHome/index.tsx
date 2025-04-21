@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import avatar from '../../assets/avatar_dev_ms.png'
 
-export default function CardHome() {
+export function CardHome() {
   return (
     <div className="relative h-screen w-full animate-gradient bg-gradient-to-b from-blue-400 via-blue-600 to-blue-950 bg-[length:200%_200%]">
-      <section className="relative z-10 h-full w-full flex flex-col items-center justify-center px-4 text-white text-center md:text-left">
+      <section  className="relative z-10 h-full w-full flex flex-col items-center justify-center px-4 text-white text-center md:text-left">
         <div className="max-w-3xl">
           <h1 className="text-xl md:text-2xl xl:text-5xl  font-bold uppercase">
             Olá!<br />

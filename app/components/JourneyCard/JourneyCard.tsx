@@ -17,9 +17,6 @@ export function JourneyCard() {
           </div>
         </div>
       </div>
-
-
-
     </div>
   )
 }

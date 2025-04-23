@@ -1,0 +1,9 @@
+#img01{
+  background-image: url('/images/parallax_02.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  box-shadow: inset 6px 6px 13px 0px rgba(148, 148, 148, 0.5);
+  width: 97%;
+}   

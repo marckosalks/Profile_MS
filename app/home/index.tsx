@@ -2,6 +2,7 @@
 import { CardHome } from '../components/CardHome'
 import { Header } from '../components/Header'
 import { AboutMe } from '../components/AboutMe'
+import { JourneyCard } from '../components/JourneyCard/JourneyCard'
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Header />
       <CardHome />
       <AboutMe />
+      <JourneyCard />
     </div>
   )
 }

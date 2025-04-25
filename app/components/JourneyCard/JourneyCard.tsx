@@ -1,5 +1,4 @@
-"use client";
-import { useRef } from "react";
+
 import "./Journey.css";
 
 export function JourneyCard() {
@@ -30,33 +29,7 @@ export function JourneyCard() {
     },
   ];
 
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const isDragging = useRef(false);
-  const startX = useRef(0);
-  const scrollLeft = useRef(0);
 
-  const handleMouseDown = (e: React.MouseEvent) => {
-    if (!scrollRef.current) return;
-    isDragging.current = true;
-    startX.current = e.pageX - scrollRef.current.offsetLeft;
-    scrollLeft.current = scrollRef.current.scrollLeft;
-  };
-
-  const handleMouseLeave = () => {
-    isDragging.current = false;
-  };
-
-  const handleMouseUp = () => {
-    isDragging.current = false;
-  };
-
-  const handleMouseMove = (e: React.MouseEvent) => {
-    if (!isDragging.current || !scrollRef.current) return;
-    e.preventDefault();
-    const x = e.pageX - scrollRef.current.offsetLeft;
-    const walk = (x - startX.current) * 1; // velocidade do scroll
-    scrollRef.current.scrollLeft = scrollLeft.current - walk;
-  };
 
   return (
     <div id="journey" className="pt-10">
@@ -73,11 +46,7 @@ export function JourneyCard() {
           className="rounded-4xl w-full max-w-7xl h-[400px] sm:h-[500px] flex items-center justify-center overflow-hidden"
         >
           <div id="desaparecer"
-            ref={scrollRef}
-            onMouseDown={handleMouseDown}
-            onMouseLeave={handleMouseLeave}
-            onMouseUp={handleMouseUp}
-            onMouseMove={handleMouseMove}
+
             className="relative flex items-center gap-20 px-10 overflow-x-auto scrollbar-hide cursor-grab active:cursor-grabbing h-full "
           >
 
@@ -108,4 +77,3 @@ export function JourneyCard() {
     </div>
   );
 }
-export default JourneyCard;

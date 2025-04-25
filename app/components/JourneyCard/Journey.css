@@ -9,11 +9,14 @@
 }   
 
 #desaparecer{
-  overflow: hidden;
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch; /* Suaviza o scroll no iOS */
+  -webkit-overflow-scrolling: touch;
   gap: 1rem;
   padding: 1rem;
+}
+
+#desaparecer::-webkit-scrollbar {
+  display: none;
 }

@@ -7,3 +7,7 @@
   box-shadow: inset 6px 6px 13px 0px rgba(148, 148, 148, 0.5);
   width: 97%;
 }   
+
+#desaparecer{
+  display: none;
+}

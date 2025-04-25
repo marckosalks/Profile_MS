@@ -72,7 +72,7 @@ export function JourneyCard() {
           id="img01"
           className="rounded-4xl w-full max-w-7xl h-[400px] sm:h-[500px] flex items-center justify-center overflow-hidden"
         >
-          <div
+          <div id="desaparecer"
             ref={scrollRef}
             onMouseDown={handleMouseDown}
             onMouseLeave={handleMouseLeave}

@@ -3,8 +3,9 @@ import { CardHome } from '../components/CardHome'
 import { Header } from '../components/Header'
 import { AboutMe } from '../components/AboutMe'
 import { JourneyCard } from '../components/JourneyCard/JourneyCard'
+import { Projects } from '../components/Projects/Projects'
 
-export default function HomePage() {
+export  function HomePage() {
   return (
 
     <div>
@@ -12,6 +13,7 @@ export default function HomePage() {
       <CardHome />
       <AboutMe />
       <JourneyCard />
+      <Projects/>
     </div>
   )
 }

@@ -78,7 +78,7 @@ export function JourneyCard() {
             onMouseLeave={handleMouseLeave}
             onMouseUp={handleMouseUp}
             onMouseMove={handleMouseMove}
-            className="relative flex items-center gap-20 px-10 overflow-x-auto scrollbar-hide cursor-grab active:cursor-grabbing h-full disabled:overflow-x-auto"
+            className="relative flex items-center gap-20 px-10 overflow-x-auto scrollbar-hide cursor-grab active:cursor-grabbing h-full "
           >
 
 

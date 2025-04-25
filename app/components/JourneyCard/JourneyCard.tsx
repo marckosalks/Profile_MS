@@ -59,7 +59,7 @@ export function JourneyCard() {
   };
 
   return (
-    <div className="pt-10">
+    <div id="journey" className="pt-10">
       <div className="text-center mt-14">
         <h2 className="text-3xl font-medium text-blue-800">JORNADA</h2>
         <p className="text-gray-400 mt-2 text-xl font-normal pb-10">

@@ -16,9 +16,13 @@ export function AlternativeMenu() {
             Sobre Mim
           </Link>
         </MenubarTrigger>
-        <MenubarTrigger>Jornada</MenubarTrigger>
-        <MenubarTrigger>Projetos</MenubarTrigger>
-        <MenubarTrigger>Contato</MenubarTrigger>
+        <MenubarTrigger asChild>
+          <Link href="#journey">
+            Jornada
+          </Link>
+        </MenubarTrigger>
+        {/* <MenubarTrigger>Projetos</MenubarTrigger>
+        <MenubarTrigger>Contato</MenubarTrigger> */}
       </MenubarMenu>
     </Menubar>
   )

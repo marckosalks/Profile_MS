@@ -3,7 +3,7 @@ import perfil from "../../assets/perfil.jpg";
 
 import "./styles.css"
 
-export function Contact() {
+export function Contact() { 
   return (
     <div id="contact" className="flex w-full h-96 justify-center bg-blue-400 flex-col items-center text-white font-bold gap-4">
       <div className=" justify-center items-center flex">

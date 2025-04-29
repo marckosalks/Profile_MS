@@ -26,7 +26,11 @@ export function AlternativeMenu() {
             Projetos
           </Link>
         </MenubarTrigger>
-        {/*<MenubarTrigger>Contato</MenubarTrigger> */}
+        <MenubarTrigger asChild>
+          <Link href="#contact">
+            Contato
+          </Link>
+        </MenubarTrigger>
       </MenubarMenu>
     </Menubar>
   )
